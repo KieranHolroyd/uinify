@@ -1,0 +1,16 @@
+{
+  "name": "uinify",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "serve": "bun run build/index.js",
+    "dev": "bun run src/index.ts",
+    "build": "bun build src/index.ts --out-dir build"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
